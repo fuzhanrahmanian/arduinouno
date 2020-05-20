@@ -17,7 +17,7 @@ while True:
     brake_pin.write(0)
     direction_pin.write(0)
     print("Direction CCW")
-    speed_pin.write(1)
+    speed_pin.write(0.15)
     print("Speed 30")
     time.sleep(5)
 
